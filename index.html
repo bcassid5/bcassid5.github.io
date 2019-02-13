@@ -1,235 +1,371 @@
 <!DOCTYPE html>
 <html>
-<title>Ben Cassidy - Home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
+<head>
+	<title>Ben Cassidy</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+	     <div class="container">
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+	          	<span class="navbar-toggler-icon"></span>
+	        </button>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-quarter">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="bestface.png" style="width:100%" alt="Avatar">
-          <div class="w3-display-topleft w3-container w3-text-white">
-            <h2>Ben Cassidy</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Engineering, Yr 4</p>
-          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-teal"></i>Western University</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, ON</p>
-          <a href="mailto:ben.cassidy@icloud.com?subject=Message%20from%20bcassid5.github.io"><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ben.cassidy@icloud.com</a>
-          <p></p>
-          <a href="tel:519-859-8129"><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>519-859-8129</a>
-          <p></p>
-          <a href="https://github.com/bcassid5" target="_blank"><i class="fa fa-github fa-fw w3-margin-right w3-large w3-text-teal"></i>Github / bcassid5</a>
-          <hr>
-          
-          <p class="w3-large"><b><i class="fa fa-bolt fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          
-          <p>HTML</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
-          </div>
-          <p>Git</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
-          </div>
-          <p>Javascript</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
+	        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+	          	<ul class="navbar-nav">
+		            <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+		            <li class="nav-item"><a class="nav-link" href="#section-about">About</a></li>
+		            <li class="nav-item"><a class="nav-link" href="#section-resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section-interests">Interests</a></li>
+		            <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
+	          	</ul>
+	        </div>
+	     </div>
+    </nav>
+
+    <section class="site-hero" style="background-image:url('images/toronto.jpg')" id="section-home" data-stellar-background-ratio="0.5">
+      	<div class="container">
+        	<div class="row intro-text align-items-center justify-content-center">
+          		<div class="col-md-10 text-center">
+            		<h1 class="site-heading site-animate">Hello, I'm <strong>Ben Cassidy</strong></h1>
+            		<p class="lead site-subheading mb-4 site-animate">An aspiring Software Engineer. 
+            		Seeking a career in the tech industry to make a mark on the world.</p>
+            		<p><a href="#section-about" class="smoothscroll btn btn-primary px-4 py-3">Find Out Who I Am</a></p>
+          		</div>
+        	</div>
+      	</div>
+    </section>
+
+    <section class="site-section" id="section-about">
+      	<div class="container">
+        	<div class="row mb-5 align-items-center">
+          		<div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
+            		<img src="images/suit.jpg" alt="Image placeholder" class="img-fluid">
+          		</div>
+          		<div class="col-lg-5 pl-lg-5">
+            		<div class="section-heading">
+              			<h2>About <strong>Me</strong></h2>
+            		</div>
+            		<p class="lead">Ben is currently working in Software Asset Management for one of Canada’s big five banks. He is a recent graduate from Western University where he studied Software Engineering.</p>
+            		<p class="mb-5  ">Starting in a co-op position before finishing his degree, he returned to the bank in a contract position to allow flexibility as a young professional and the ideology of not wanting to be tied down directly out of school. </p>
+                <p class="mb-5  ">Now that Ben has been out of school for a year, it has come time to seek full time employment and move into a career setting. He is seeking a career in web development and/or data analytic related positions.</p>
+            		<p>
+		              	<a href="#section-contact" class="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
+		              	<a href="#" class="btn btn-secondary px-4 py-2 btn-sm">Download CV</a>
+		            </p>
+          		</div>
+        	</div>
+    	</div>
+    </section>
+
+    <section class="site-section bg-light " id="section-resume">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2>My <strong>Resume</strong></h2>
             </div>
           </div>
-          <p>C++ / C#</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Java</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-          </div>
-          
-          <br><br>
-          
-          <br><br>
-        </div>
-      </div><br>
+          <div class="col-md-6">
+            <h2 class="mb-5">Education</h2>
+            <div class="resume-item mb-4">
+              <span class="date"><span class="icon-calendar"></span> September 2014 - April 2018</span>
+              <h3>Bachelor of Engineering Science</h3>
+              <h5>Software Engineering</h5>
+              <ul>
+                <li>UWO Entrance Scholarship for Academic Excellence</li>
+                <li>Dean’s Honor List</li>
 
-    <!-- End Left Column -->
-    </div>
+              </ul>
+              <span class="school">Western University, London ON</span>
+            </div>
 
-    <!-- Right Column -->
-    <div class="w3-threequarter">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Western University, London ON</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
-          <p>Bachelor of Engineering Science, Software Engineering</p><br>
-          <ul>
-            <li>UWO Entrance Scholarship for Academic Excellence (2014)</li>
-            <li>Dean’s Honor List 2015, 2016</li>
-          </ul>
-          <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-teal w3-right">View Class History</button>-->
-          <br><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>IT Solutions – Software Lifecycle & Release Management - Student Co-op / TD Bank</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2017 - Aug 2017<!--<span class="w3-tag w3-teal w3-round">Current</span>--></h6>
-          <ul>
-            <li>Reviewed software packages and applications for the Windows 10 Future Workspace project; successfully classified all catalogued applications with their respective registration identifications and owners</li>
-            <li>Coordinated package intake through the Application Change Request portal; assisted employees with submitting proper software requests, led to the discovery of deficiencies in the portal and a requirements document to redesign the portal for more efficient use</li>
-          </ul>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Forklift Operator / AFA Forest Products</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2009 - Aug 2016</h6>
-          <ul>
-            <li>Engaged with customers to fulfill pick up orders; led to enhanced customer experience as well as repeat business with positive customer feedback</li>
-            <li>Contributed to a positive team environment by sharing large tasks; increased the efficiency of the work day by continually completing daily tasks ahead of schedule   </li>
-          </ul>
-          
-        </div>
-      </div>
-      
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-folder-open fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Highlighted Projects</h2>
-        <div class="w3-container">
-          <h4 class="w3-opacity"><b>  Virtual Reality Surgery Simulation</b></h4>
-          <!--<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>-->
-          <p><b>Capstone Project</b> <a href="https://github.com/semicoloncapstone/ar_surgery_web" target="_blank">(View Repository)</a></p>
-          <ul>
-            <p><b>Web Application</b></p>
-            <li>Frontend: Ember.JS</li>
-            <li>Backend: Node.JS, Express</li>
-            <li>Database: MongoDB</li>
-            <li>Displays information on scores and visualizations of past simulations</li>
-            <li>Includes access control for different user types including students and instructors</li>
-            <li>Additional Features: view a log of past simulations, message between users, create and register in classes allowing student data to be grouped</li>
+            <h2 class="mb-5">Projects</h2>
             
-            <p><b>Android Application</b></p>
-            <li>Application: Unity Game Engine</li>
-            <li>Augmented Reality: Vuforia</li>
-            <li>Simulation of a VP shunting surgery using a 3D model of a skull and ventricles</li>
-            
-          </ul>
+            <div class="resume-item mb-4">
+              <h3>Western Engineering Adjudication</h3>
+              <h5>Term Project - Web Development</h5>
+              <ul>
+                <li>
+                  Developed an augmented reality surgical training mobile application and website companion app
+                </li>
+                <li>AR App Stack: Unity, Vuforia, Android</li>
+                <li>Website Stack: Ember.JS, Node.JS, Express, MongoDB </li>
+              </ul>
+              <p><a href="https://github.com/semicoloncapstone" target="_blank"><i class="fab fa-github"></i> Visit the GitHub repository for this project!</a></p>
+            </div>
+
+            <div class="resume-item mb-4">
+              <h3>Western Engineering Adjudication</h3>
+              <h5>Term Project - Web Development</h5>
+              <ul>
+                <li>
+                  Led a team of five students to complete two term projects; resulted in successful completion of software requirements documentation and web application including a podium finish overall in class competition
+                </li>
+                <li>Website Stack: Ember.JS, Node.JS, Express, MongoDB</li>
+              </ul>
+              <p><a href="https://github.com/bcassid5/WesternAdjudication" target="_blank"><i class="fab fa-github"></i> Visit the GitHub repository for this project!</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h2 class="mb-5">Experience</h2>
+
+            <div class="resume-item mb-4">
+              <span class="date"><span class="icon-calendar"></span> June 2018 - Present</span>
+              <h3>Software Asset Management</h3>
+              <h5>IT Analyst II - Technical Support</h5>
+              <ul>
+                <li>Remediating unauthorized software from network workstations; testing automated removals of unauthorized software from workstations using custom command line strings to eliminate financial and security vulnerabilities</li>
+                <li>Managing enterprise change records; maintaining change records for software removals through Service Now to provide details for line of businesses affected by removal distributions</li>
+                <li>Reporting on unauthorized software remediation for each line of business target; writing complex SQL queries on large datasets to determine the remediation status using Tableau and Excel for data visualization</li>
+
+              </ul>
+              <span class="school">TD Bank</span>
+            </div>
+
+            <div class="resume-item mb-4">
+              <span class="date"><span class="icon-calendar"></span> May 2017 - August 2017</span>
+              <h3>Software Lifecycle & Release Management</h3>
+              <h5>IT Analyst - Co-op</h5>
+              <ul>
+                <li>Reviewed software packages and applications for the Windows 10 Future Workspace project; successfully classified all catalogued applications with their respective registration identifications and owners</li>
+                <li>Coordinated package intake through Application Change Request portal; led to the discovery of deficiencies in the portal and elicited requirements for a new packaging portal in Service Now</li>
+              </ul>
+              <span class="school">TD Bank</span>
+            </div>
+
+          </div>
         </div>
-        <hr>
-        <div class="w3-container">
-          <h4 class="w3-opacity"><b>Western Engineering Adjudication System</b></h4>
-          <!--<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>-->
-          <p><b>Term Project</b> <a href="https://github.com/bcassid5/WesternAdjudication" target="_blank">(View Repository)</a></p>
-          <ul>
-            <li>Frontend: Ember.JS</li>
-            <li>Backend: Node.JS, Express</li>
-            <li>Database: MongoDB</li>
-            <li>The application automatically adjudicates students for program continuation and graduation requirements</li>
-            <li>Placed third overall in class competition</li>
-          </ul>
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="mb-5">Skills</h2>
+            <div class="resume-item mb-4">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li>Agile methodology</li>
+                      <li>AI basics: machine learning, computer vision and natural language processing</li>
+                      <li>Programming with C++, C#, Java</li>
+                      <li>Web Development Stack: Linux, Apache, MySQL, PHP, Laravel</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul>
+                      <li>HTML, CSS, JavaScript, jQuery, PHP, Git version control</li>
+                      <li>MySQL, MSSQL</li>
+                      <li>Platform versatility with experience in Linux, Mac and Windows environments</li>
+                      <li>Web Development Stack: with Ember.js, ES6, Node.js, Express, MongoDB</li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="site-section" id="section-interests">
+      <div class="container">
+        <div class="row">
+          <div class="section-heading text-center col-md-12">
+            <h2>My <strong>Interests</strong></h2>
+          </div>
+        </div>
+                    
         
+          <div class="row grid">
+            <div class="single-portfolio col-sm-4 all sports">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/leafs.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Hockey</h4>
+                <p>Long time hockey player and fan. Always enjoy weekly pick up games. Go leafs go!</p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all sports">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/pats.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Football</h4>
+                <p>NFL supporter of the G.O.A.T. You either love em' or you hate em' don't judge!</p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all sports">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/golf.png" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Golf</h4>
+                <p>Still waiting for the day to outscore the old man on the course!</p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all hobbies">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/food.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Cooking</h4>
+                <p>Always looking for a chance to host a dinner party! (The Food Lab book is a favorite for combining science and cooking)</p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all hobbies">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/wood.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Woodworking</h4>
+                <p>A chance to escape the screen occasionally and work with his hands. Ben's poker table was the best piece made. (Seen partially completed)</p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all family">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/wed.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Family</h4>
+                <p>Very strong family roots leave him striving to live up to their perfect example. Most excited for his first newphew on the way!</p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all family">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid" src="images/tuck.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Pets</h4>
+                <p>Always living with the best of dogs. Pushed him to seek volunteering with <a href="https://www.taffyslegacy.com/" target="_blank">Taffy's Legacy Canine Rescue.</a></p>
+                
+              </div>                                         
+            </div>
+            <div class="single-portfolio col-sm-4 all family">
+              <div class="relative">
+                <div class="thumb">
+                  <div class="overlay overlay-bg"></div>
+                  <img class="image img-fluid rotateimg180" src="images/budapest.jpg" alt="">
+                </div>
+                <a href="images/p1.jpg" class="img-pop-up">  
+                  <div class="middle">
+                    <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""></div>
+                  </div>
+                </a>                                  
+              </div>
+              <div class="p-inner">
+                <h4>Travel</h4>
+                <p>Seeking to see the world from new perspectives at any chance he gets. Ambitious <a href="https://drive.google.com/open?id=1v0qAxUOXCKQVKYdvDJyJQqGuk6pfxWWg&usp=sharing" target="_blank">travel locations</a> continually being saught out and saved! </p>
+                
+              </div>                                         
+            </div>
+        </div>
       </div>
-    <!-- End Right Column -->
-    </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
+    </section>
 
-
-<!--
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content">
-    <div class="w3-container">
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-      
-      <h4 class="w3-text-grey w3-padding-16">Class History</h4>
-      <div class="w3-container">
-        <table class="w3-table-all">
-          <tr>
-            <th>Class Code</th>
-            <th>Class Title</th>
-            <th>Grade Recieved</th>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-        </table>
+    <section class="site-section bg-light" id="section-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <div class="section-heading text-center">
+              <h2><strong>Start Work</strong> With Me</h2>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5 mb-md-0">
+            <img src="images/degree.jpg" alt="Image placeholder" class="img-fluid">
+          </div>
+          <div class="col-md-6 pl-md-5">
+            <h3 class="mb-5">My Contact Details</h3>
+            <ul class="site-contact-details">
+              <li>
+                <span class="text-uppercase">Email</span>
+                <a href="mailto:ben.cassidy@icloud.com?subject=Inquiry%20from%20Ben%20Cassidy's%20Website">ben.cassidy@icloud.com</a>
+              </li>
+              <li>
+                <span class="text-uppercase">Phone</span>
+                <a href="tel:519-859-8129">+1-519-859-8129</a>
+              </li>
+              <li>
+                <span class="text-uppercase">Social</span>
+                <a href="https://github.com/bcassid5" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/bcassid5" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/benjamcassidy/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>-->
+    </section>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-
-  <p>Ben Cassidy, Software Engineer</p>
-  <p>Visit me online</p>
-  <a href="https://www.facebook.com/bcassid5" target="_blank"><i class="fa fa-facebook-official w3-xxlarge w3-hover-opacity"></i></a>
-  <a href="https://www.instagram.com/benjamcassidy/?hl=en" target="_blank"><i class="fa fa-instagram w3-xxlarge w3-hover-opacity"></i></a>
-  <a href="https://www.github.com/bcassid5" target="_blank"><i class="fa fa-github w3-xxlarge w3-hover-opacity"></i></a>
-  <!--<a href=""><i class="fa fa-snapchat w3-hover-opacity"></i></a>-->
-  <!--<a href=""><i class="fa fa-linkedin w3-hover-opacity"></i></a>-->
-  <p></p>
-</footer>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
